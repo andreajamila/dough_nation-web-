@@ -1,0 +1,83 @@
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container .btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #9966cc;
+    border: none;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #e6554f;
+}
+
+.btn-primary:hover {
+    background-color: #8a59b0;
+}
+
+/* <!--   <section id="order" class="py-5 bg-light">
+    <div class="container" style="background-color: #FFF574; padding:3%">
+        <h2 class="text-center mb-4">Place Your Order</h2>
+        <form action="process_order.php" method="POST">
+            <div class="mb-3">
+                <label for="item" class="form-label">Select Item</label>
+                <select class="form-select" id="item" name="item" required>
+                    <?php
+                    // Fetch products from the database
+                    // $sql = "SELECT product_id, product_name FROM product";
+                    // $result = mysqli_query($conn, $sql);
+
+                    // if (mysqli_num_rows($result) > 0) {
+                    //     while ($row = mysqli_fetch_assoc($result)) {
+                    //         // Populate each product as an option in the dropdown
+                    //         echo "<option value='" . $row['product_id'] . "'>" . htmlspecialchars($row['product_name']) . "</option>";
+                    //     }
+                    // } else {
+                    //     // Display a default option if no products are available
+                    //     echo "<option value='' disabled>No items available</option>";
+                    // }
+                    ?>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Quantity</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" min="1" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Order</button>
+        </form>
+    </div>
+</section> --> */

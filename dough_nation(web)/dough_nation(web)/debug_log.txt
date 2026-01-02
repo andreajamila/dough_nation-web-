@@ -1,0 +1,6 @@
+Array
+(
+    [product_id] => PB002
+    [quantity] => 12
+    [total_price] => 1560
+)

@@ -1,0 +1,2 @@
+Product ID: PB004, Quantity: 1, Total Price: 15
+Product ID: PB001, Quantity: 1, Total Price: 52
